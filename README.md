@@ -1,6 +1,5 @@
-===============================
-       DISCORD BACKUP BOT
-===============================
+DISCORD BACKUP BOT
+
 
 DESCRIPTION  
 Ce bot Discord permet de sauvegarder et restaurer la structure de votre serveur (rôles, salons, emojis) rapidement et facilement.  
