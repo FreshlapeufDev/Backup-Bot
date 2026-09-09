@@ -1,9 +1,10 @@
-DISCORD BACKUP BOT
-
+------------
+BACKUP BOT
+------------
 
 DESCRIPTION  
 Ce bot Discord permet de sauvegarder et restaurer la structure de votre serveur (rôles, salons, emojis) rapidement et facilement.  
-Idéal pour les administrateurs qui veulent sécuriser leur serveur ou le réinitialiser rapidement.
+Idéal pour ceux qui veulent backup ( sauvegarder ) leur serveur ou le réinitialiser rapidement.
 
 FICHIERS INCLUS  
 - bot.py          -> script principal du bot  
@@ -21,11 +22,12 @@ INSTALLATION ET LANCEMENT
 1. Placez tous les fichiers dans un même dossier.
 
 2. Installez les dépendances :  
-   Ouvrez l’invite de commande (cmd) dans ce dossier et tapez :  
+   Ouvrez l’invite de commande (cmd) dans ce dossier et tapez : 
+   cd VOTRE CHEMIN D ACCES 
    pip install -r requirements.txt
 
 3. Configurez le bot :  
-   Ouvrez bot.py avec un éditeur de texte et remplacez la ligne :  
+   Ouvrez bot.py avec un éditeur de texte (Vscode, Notepad/++) et remplacez la ligne :  
    bot.run("Votre token")  
    par :  
    bot.run("VOTRE_TOKEN_ICI")  
@@ -34,20 +36,20 @@ INSTALLATION ET LANCEMENT
 4. Lancez le bot :  
    Double-cliquez sur start.bat.  
    Une fenêtre console s’ouvrira, et vous verrez un message du type :  
-   Connecté en tant que BotName
+   Connecté en tant que BotName ( Le nom de votre Bot )
 
-COMMANDES DISPONIBLES (ADMINISTRATEURS UNIQUEMENT)  
+COMMANDES DISPONIBLES ( POUR LES ADMINISTRATEURS DU SERVEUR UNIQUEMENT)  
 
 +backupall  
 Sauvegarde la configuration complète du serveur :  
-- Rôles (sauf @everyone)  
+- Rôles (sauf @everyone car il est indépendant a chaque serveur)  
 - Salons (textuels, vocaux, catégories)  
 - Emojis personnalisés  
-Les données sont enregistrées dans le dossier backups/ sous forme de fichiers JSON.
+Les données sont enregistrées dans le dossier backups/ sous forme de fichiers JSON (en local) .
 
 +restore  
 Restaure le serveur à partir de la dernière sauvegarde :  
-- Supprime les rôles et salons actuels (sauf @everyone)  
+- Supprime les rôles et salons actuels (sauf @everyone car il est indépendant a chaque serveur)  
 - Recrée les rôles, salons, catégories, emojis à partir des fichiers sauvegardés  
 - Supprime ensuite le dossier backups/  
 
@@ -67,6 +69,6 @@ discord.py
 aiohttp
 
 SUPPORT & DISTRIBUTION  
-Ce bot est libre et gratuit. Vous pouvez le modifier et le redistribuer.
+Ce bot est libre et gratuit. Vous pouvez le modifier et le redistribuer en me nommant.
 
 ===============================
