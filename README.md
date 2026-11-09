@@ -1,7 +1,3 @@
-------------
-BACKUP BOT
-------------
-
 DESCRIPTION  
 Ce bot Discord permet de sauvegarder et restaurer la structure de votre serveur (rôles, salons, emojis) rapidement et facilement.  
 Idéal pour ceux qui veulent backup ( sauvegarder ) leur serveur ou le réinitialiser rapidement.
@@ -70,5 +66,3 @@ aiohttp
 
 SUPPORT & DISTRIBUTION  
 Ce bot est libre et gratuit. Vous pouvez le modifier et le redistribuer en me nommant.
-
-===============================
